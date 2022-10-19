@@ -5,9 +5,9 @@
 
 
 
-Printer(CreatArray(5));
+Printer(NewNumber(6));
 
-int [] CreatArray (int len)
+int [] NewNumber (int len)
 {
     int [] array = new int [len];
 
@@ -22,7 +22,7 @@ int [] CreatArray (int len)
 void Printer(int[] array)
 {
     int count = 0;
-    for (int = 0; i < array.Length; i++)
+    for (int i  = 0; i < array.Length; i++)
     {
         if (array[i]%2 == 0)
         {
